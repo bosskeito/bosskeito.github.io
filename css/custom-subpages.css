@@ -107,6 +107,7 @@ h2 {
 .centerbot {
   position: absolute;
   top: 50%;
+  left: 5%;
   transform: translateY(-50%)
 }
 
@@ -154,82 +155,11 @@ h2 {
   }
 }
 
-.sidebar-experimental {
-  position: fixed;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
-  z-index: 1;
-  opacity: 0;
-}
-
-@media screen and (min-width: 991px) and (max-width: 1199px) {
-  .sidebar-experimental {
-    right: 18px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .sidebar-experimental {
-    right: 30px;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .sidebar-experimental {
-    right: 170px;
-  }
-}
-@media screen and (min-width: 2560px) {
-  .sidebar-experimental {
-    right: 726px;
-  }
-}
-
-.sidebar-experimental ul {
-  margin-bottom: 0;
-}
-
-.sidebar-experimental li {
-  margin-top: 2px;
-  margin-bottom: 2px;
-  font-size: 13px;
-  font-weight: bold;
-  text-align: right;
-  text-transform: uppercase;
-  color: #fff;
-  list-style-type: none !important;
-}
-
-.sidebar-experimental a {
-  color: #fff;
-  opacity: 0.54;
-  padding-right: 5px;
-}
-
 .subheader {
   font-size: 26px;
   line-height: 42px;
   opacity: 0.54;
   text-shadow: 0px 1px 16px rgba(0, 0, 0, 0.38);
-}
-
-.line--top {
-  position: absolute;
-  right: 0;
-  top: -56px;
-  width: 2px;
-  height: 48px;
-  background-color: #fff;
-  opacity: 0.54;
-}
-
-.line--end {
-  position: absolute;
-  right: 0;
-  bottom: -56px;
-  width: 2px;
-  height: 48px;
-  background-color: #fff;
-  opacity: 0.54;
 }
 
 @media screen and (max-width: 575px) {
@@ -329,7 +259,7 @@ h2 {
 
 .to-video--inverted {
   position: absolute;
-  top: 2vh;
+  top: 1vh;
   color: #000000;
   background-color: rgba(255, 255, 255, 0.5);
   padding: 3px;
@@ -344,7 +274,7 @@ h2 {
 }
 .to-video {
   position: absolute;
-  top: 2vh;
+  top: 1vh;
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 3px;
