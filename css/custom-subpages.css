@@ -239,6 +239,12 @@ h2 {
   height: auto;
 }
 
+.mini-image-display {
+  margin: 10px;
+  width: 100%;
+  height: auto;
+}
+
 .photo-button {
   width: 19.5vh;
   height: 19.5vh;
@@ -281,6 +287,8 @@ h2 {
   border-radius: 10px;
   transition: 0.1s ease;
 }
+
+
 .to-video:hover {
   color: #000000;
   background-color: rgba(255, 150, 0, 0.5);
@@ -405,4 +413,26 @@ h2 {
   .copyright-inverted {
     font-size: 10px;
   }
+}
+
+.mini-to-video {
+	margin: 0;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3px;
+  border-radius: 10px;
+  transition: 0.1s ease;
+}
+
+.mini-to-video--inverted {
+	margin: 0;
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 3px;
+  border-radius: 10px;
+  transition: 0.1s ease;
+}
+
+.mini-image-display {
+  height: auto;
 }

@@ -343,6 +343,12 @@ h2 {
   padding: 3px;
 }
 
+.mini-logo {
+  width: 30%;
+  height: 30%;
+  padding: 3px;
+}
+
 .aboutheader {
   margin: 0;
 }
@@ -360,4 +366,13 @@ h2 {
   border-radius: 10px;
   transition: 0.3s ease;
   background-color: white;
+}
+
+.show-onresize {
+	display: none;
+}
+@media screen and (max-width: 720px) {
+  .show-onresize {
+    display: block;
+  }
 }
