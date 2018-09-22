@@ -416,15 +416,22 @@ h2 {
 }
 
 .mini-to-video {
-	margin: 0;
+	display: none;
+  margin: 0;
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 3px;
   border-radius: 10px;
   transition: 0.1s ease;
 }
+@media screen and (max-width: 720px) {
+  .mini-to-video {
+    display: block;
+  }
+}
 
 .mini-to-video--inverted {
+	display: none;
 	margin: 0;
   color: #000000;
   background-color: rgba(255, 255, 255, 0.5);
@@ -432,9 +439,20 @@ h2 {
   border-radius: 10px;
   transition: 0.1s ease;
 }
+@media screen and (max-width: 720px) {
+  .mini-to-video--inverted {
+    display: block;
+  }
+}
 
 .mini-image-display {
+	display: none;
   height: auto;
+}
+@media screen and (max-width: 720px) {
+  .mini-image-display {
+    display: block;
+  }
 }
 
 .show-onresize {
