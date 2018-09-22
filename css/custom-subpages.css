@@ -436,3 +436,12 @@ h2 {
 .mini-image-display {
   height: auto;
 }
+
+.show-onresize {
+	display: none;
+}
+@media screen and (max-width: 720px) {
+  .show-onresize {
+    display: block;
+  }
+}
